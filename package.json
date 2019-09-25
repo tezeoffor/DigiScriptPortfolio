@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "DigiScript Portfolio",
   "main": "app.js",
+  "homepage": "https://tezeoffor.github.io/DigiScriptPortfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o  public/css/ --recursive",
+    "deploy": "gh-pages -d dist",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
@@ -13,6 +15,7 @@
   "dependencies": {
     "ejs": "^2.7.1",
     "express": "^4.17.1",
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0"
   }
 }
