@@ -1313,6 +1313,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-header.has-bottom-sep {
     padding-bottom: 2.1rem;
     position: relative;
+    margin-bottom: 3em;
 }
 
 .section-header.has-bottom-sep::before {
