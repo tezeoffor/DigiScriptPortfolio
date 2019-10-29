@@ -9,7 +9,7 @@
 
     var cfg = {
         scrollDuration : 800, // smoothscroll duration
-        mailChimpURL   : "https://thedigiscript.us20.list-manage.com/subscribe/post?u=4e9b79eddfe203ed42ec4fb53&amp;id=0ba0b47635"   // mailchimp url
+        mailChimpURL   : "https://thedigiscript.us20.list-manage.com/subscribe/post-json?u=4e9b79eddfe203ed42ec4fb53&amp;id=0ba0b47635"   // mailchimp url
     },
 
     $WIN = $(window);
