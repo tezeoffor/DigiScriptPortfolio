@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'tezeoffor@gmail.com';
+$siteOwnersEmail = 'admin@thedigiscript.com';
 
 
 if($_POST) {
