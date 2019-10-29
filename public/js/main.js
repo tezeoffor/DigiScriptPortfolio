@@ -365,7 +365,7 @@
                     error: function() {
 
                         sLoader.slideUp("slow");
-                        $('.message-warning').html("Something went wrong. Please try again.");
+                        $('.message-warning').html("Something went wrong.  Please email us at info@thedigiscript.com");
                         $('.message-warning').slideDown("slow");
 
                     }
