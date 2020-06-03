@@ -1,0 +1,55 @@
+Arguments: 
+  /usr/local/Cellar/node/13.8.0/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  13.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ejs: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:141354:19)
+      at Object.onceWrapper (events.js:427:28)
+      at ClientRequest.emit (events.js:321:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:721:9)
+      at Object.onceWrapper (events.js:427:28)
+      at TLSSocket.emit (events.js:321:20)
+      at TLSSocket.Socket._onTimeout (net.js:478:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "digiscriptportfolio",
+    "version": "1.0.0",
+    "description": "DigiScript Portfolio",
+    "main": "theDigiscript.js",
+    "homepage": "https://tezeoffor.github.io/DigiScriptPortfolio",
+    "scripts": {
+      "sass": "node-sass -w scss/ -o  public/css/ --recursive",
+      "deploy": "gh-pages -d dist",
+      "start": "node theDigiscript.js",
+      "dev": "nodemon theDigiscript.js"
+    },
+    "author": "DigiScript",
+    "license": "ISC",
+    "dependencies": {
+      "ejs": "^2.7.1",
+      "express": "^4.17.1",
+      "gh-pages": "^2.1.1",
+      "node-sass": "^4.12.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

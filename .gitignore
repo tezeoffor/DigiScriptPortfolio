@@ -22,3 +22,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.idea/
+.vs/
+.env
+.pk
+.pem
+.pub
+.env_prod
+temp/
+node_modules
