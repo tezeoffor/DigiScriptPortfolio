@@ -2568,25 +2568,25 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-works .intro-wrap {
-  padding: 15rem 0 25.2rem;
+  padding: 15rem 0;
   background: #111111;
 }
 
 .s-works .preview1 {
-  padding: 10rem 0 20rem;
+  padding: 15rem 0;
 
   background: #38a9e4;
   background-image: linear-gradient(to top right, #38a9e4, #b6e7f0);
 }
 
 .s-works .preview2 {
-  padding: 15rem 0 30rem;
+  padding: 15rem 0;
   background: #143af7;
   background-image: linear-gradient(to top right, #143af7, #057fe6);
 }
 
 .s-works .preview3 {
-  padding: 15rem 0 30rem;
+  padding: 15rem 0;
   /* /* background: #f584a6; */
   background-image: linear-gradient(to bottom right, #f584a6, #fde4ec);
 }
