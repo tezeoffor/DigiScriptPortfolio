@@ -32,3 +32,4 @@ yarn-error.log*
 .env_prod
 temp/
 node_modules
+.DS_Store
