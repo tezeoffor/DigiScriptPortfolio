@@ -2588,6 +2588,12 @@ html.no-csstransitions .home-content__main {
 .s-works .preview3 {
   padding: 15rem 0;
   /* /* background: #f584a6; */
+  background-image: linear-gradient(to bottom right, #18191a, #18191a);
+}
+
+.s-works .preview4 {
+  padding: 15rem 0;
+  /* /* background: #f584a6; */
   background-image: linear-gradient(to bottom right, #f584a6, #fde4ec);
 }
 
