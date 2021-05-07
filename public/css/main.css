@@ -2596,6 +2596,11 @@ html.no-csstransitions .home-content__main {
   /* /* background: #f584a6; */
   background-image: linear-gradient(to bottom right, #f584a6, #fde4ec);
 }
+.s-works .preview5 {
+  padding: 15rem 0;
+  /* /* background: #f584a6; */
+  background-image: linear-gradient(to bottom right, #fc5f5f, #fc5f5f);
+}
 
 .works-content {
   max-width: 1160px;
@@ -2820,6 +2825,7 @@ html.no-csstransitions .home-content__main {
 .responsive {
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 /* ===================================================================
