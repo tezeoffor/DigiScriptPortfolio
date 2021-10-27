@@ -2,13 +2,13 @@
   "name": "digiscriptportfolio",
   "version": "1.0.0",
   "description": "DigiScript Portfolio",
-  "main": "theDigiscript.js",
+  "main": "app.js",
   "homepage": "https://tezeoffor.github.io/DigiScriptPortfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o  public/css/ --recursive",
     "deploy": "gh-pages -d dist",
-    "start": "node theDigiscript.js",
-    "dev": "nodemon theDigiscript.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "DigiScript",
   "license": "ISC",

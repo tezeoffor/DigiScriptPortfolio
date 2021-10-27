@@ -2561,7 +2561,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-  background: #ffffff;
+  /* background: #ffffff; */
   padding: 0 0 15rem 0;
   min-height: 800px;
   position: relative;
@@ -2588,7 +2588,18 @@ html.no-csstransitions .home-content__main {
 .s-works .preview3 {
   padding: 15rem 0;
   /* /* background: #f584a6; */
+  background-image: linear-gradient(to bottom right, #18191a, #18191a);
+}
+
+.s-works .preview4 {
+  padding: 15rem 0;
+  /* /* background: #f584a6; */
   background-image: linear-gradient(to bottom right, #f584a6, #fde4ec);
+}
+.s-works .preview5 {
+  padding: 15rem 0;
+  /* /* background: #f584a6; */
+  background-image: linear-gradient(to bottom right, #fc5f5f, #fc5f5f);
 }
 
 .works-content {
@@ -2809,6 +2820,12 @@ html.no-csstransitions .home-content__main {
   .item-folio__cat {
     font-size: 1.4rem;
   }
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 /* ===================================================================
